@@ -33,7 +33,6 @@ then run the SQl code!!!
 */
 
 
-//$DBConnect = new mysqli("localhost", "premier_premier","777777a", "premier_online_stores");//error control operator @ suppresses the error messages TEST Q
 if($DBConnect->connect_errno)
 $ErrorMsgs[] = "Unable to connect to the database server"." Error code " . $DBConnect->connect_errno . ": " . $DBConnect->connect_error;
 else
