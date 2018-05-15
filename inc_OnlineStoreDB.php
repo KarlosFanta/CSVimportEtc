@@ -17,8 +17,6 @@ $ErrorMsgs = array();
  
  
  //error control operator @ suppresses the error messages TEST Q
-//$DBConnect = new mysqli("localhost", "progress_root","Itsmeagain007#", "progress_kc");//error control operator @ suppresses the error messages TEST Q
-//Username: 	progress_root
 
 /*
 
